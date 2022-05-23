@@ -1,7 +1,7 @@
 var A1 = document.getElementById("A1");
 
 A1.onclick = function() {
-    var a = "bahan/kyrie.png";
+    var a = "Bahan/kyrie.png";
     let tinggi = 200;
     let lebar = 360;
     var nama = "Kyrie 5";
@@ -19,7 +19,7 @@ A1.onclick = function() {
 var A2 = document.getElementById("A2");
 
 A2.onclick = function() {
-    var a = "bahan/under-armour-curry-8.png";
+    var a = "Bahan/under-armour-curry-8.png";
     let tinggi = 200;
     let lebar = 360;
     var nama = "Curry 8";
@@ -37,7 +37,7 @@ A2.onclick = function() {
 var A3 = document.getElementById("A3");
 
 A3.onclick = function() {
-    var a = "bahan/kobe 5 proto.jpg";
+    var a = "Bahan/kobe 5 proto.jpg";
     let tinggi = 200;
     let lebar = 360;
     var nama = "Kobe 5 proto";
