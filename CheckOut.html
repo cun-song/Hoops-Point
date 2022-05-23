@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Out</title>
+    <link rel="stylesheet" href="CheckOut.css">
+</head>
+
+<body>
+    <div id="pheader">
+        <div id="header">
+            <div id="kiri">
+                <a href="home.html"><svg id="logohome" fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="384px" height="384px">    <path d="M 12 2.0996094 L 1 12 L 4 12 L 4 21 L 10 21 L 10 14 L 14 14 L 14 21 L 20 21 L 20 12 L 23 12 L 12 2.0996094 z"/></svg></a>
+                <a class="tulisan" href="shoes.html">SHOES</a>
+                <a class="tulisan" href="accessories.html">ACCESSORIES</a>
+            </div>
+            <div id="kanan">
+                <div id="searchbox">
+                    <input type="text" class="search">
+                    <img src="Bahan/icon search.png">
+                </div>
+                <a href="FAQ.html">
+                    FAQ
+                </a>
+            </div>
+        </div>
+        <div id=plogo>
+            <a href="home.html"> <img id="logo" src="Bahan/logo.png"></a>
+        </div>
+    </div>
+    <div id="pcontent">
+        <div id="content">
+            <div id="gambar">
+                <img id="image" src="shoes/A2.png">
+            </div>
+            <div id="info">
+                <div class="phuruf">
+                    <h1 id="name">Nama product</h1>
+                </div>
+                <div class="phuruf">
+                    <h2 id="price">2.000.000</h2>
+                </div>
+                <div class="phuruf">
+                    <label for="Size">Size:</label>
+                    <select name="Size" id="Size">
+                    <option id="AB1" value="41">41</option>
+                    <option id="AB2" value="42">42</option>
+                    <option id="AB3" value="43">43</option>
+                    <option id="AB4" value="44">44</option>
+                    </select>
+                </div>
+                <div class="phuruf">
+                    <label for="Qty">Qty:</label>
+                    <select name="Qty" id="Qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    </select>
+                </div>
+                <div id="pdes">
+                    <div id="des">
+                        <p id="deskrip"></p>
+                    </div>
+                </div>
+                <div id="pbeli">
+                    <button onclick="membeli()" id="beli">buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="pform">
+        <div id="form">
+            <h1>Check Out Form</h1>
+            <form name="checkout" action="javascript:alert('yeah order pesanan kamu berhasil');" method="GET" onsubmit="return validasi()">
+                <div id="psemua">
+                    <div id="pjudul">
+                        <div class="jform">
+                            <label for="name">Nama </label>
+
+                        </div>
+                        <div class="jform">
+                            <label for="age">Umur </label>
+
+                        </div>
+                        <div class="jform">
+                            <label for="email">Alamat Email </label>
+
+                        </div>
+                        <div class="jform">
+                            <label for="nohp">Nomor Hp </label>
+
+                        </div>
+                        <div class="jform">
+                            <label for="poscode">Kode Pos </label>
+
+                        </div>
+                        <div class="jform">
+                            <label for="address">Alamat </label>
+
+                        </div>
+                        <div class="jform">
+                            <label for="notes">Catatan </label>
+
+                        </div>
+                    </div>
+                    <div id="pisi">
+                        <div class="sform">
+
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div class="sform">
+
+                            <input type="number" name="age" id="age">
+                        </div>
+                        <div class="sform">
+
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="sform">
+
+                            <input type="number" name="nohp" id="nohp">
+                        </div>
+                        <div class="sform">
+
+                            <input type="number" name="poscode" id="poscode">
+                        </div>
+                        <div class="sform">
+
+                            <input type="text" name="address" id="address">
+                        </div>
+                        <div class="sform">
+
+                            <input type="text" name="notes" id="notes">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="psubmit">
+                    <input type="submit" value="submit">
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div id="pfooter">
+        <img id="jordanfooter" src="Bahan/jordan footer.jpg">
+        <div id="upfooter">
+            <div id="footerkiri">
+                <div id="pweaccept">
+                    <p>WE ACCEPT</p>
+                </div>
+                <div class="weaccept">
+                    <img id="bca" src="Bahan/Logo Bank BCA.png">
+                    <img id="dana" src="Bahan/logo dana.png">
+                </div>
+                <div class="weaccept">
+                    <img id="ovo" src="Bahan/logo-ovo.png">
+                    <img id="gopay" src="Bahan/GoPay.png">
+                </div>
+            </div>
+            <div id="footertengah">
+                <div id="psocial">
+                    <p>SOCIAL</p>
+                </div>
+                <div id="social">
+                    <a href="https://www.facebook.com/hoopsverse/"><img id="fb" src="Bahan/facebook.png"></a>
+                    <a href="https://www.instagram.com/hoops_universe_/"><img id="ig" src="Bahan/instagram.png"></a>
+                    <a href="https://twitter.com/hoopsuniversum"><img id="twt" src="Bahan/twitter.png"></a>
+                </div>
+            </div>
+            <div id="footerkanan">
+                <div id="pfaq">
+                    <a href="FAQ.html">
+                        <P>FAQ</P>
+                    </a>
+                </div>
+                <div id="faq">
+                    <p>Cara lacak pesanan</p>
+                    <p>Info pengiriman</p>
+                    <p>Pembatalan order</p>
+                    <p>Metode pembayaaran</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p>HOOPS UNIVERSE © 2021 ALL RIGHTS RESERVED </p>
+        </div>
+    </div>
+    <script src="CheckOut.js"></script>
+</body>
+
+</html>
