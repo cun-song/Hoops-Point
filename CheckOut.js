@@ -80,5 +80,5 @@ function validasi() {
         return false;
     }
 
-    location.replace("home.html");
+    location.replace("index.html");
 }
